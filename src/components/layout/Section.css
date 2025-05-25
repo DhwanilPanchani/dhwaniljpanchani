@@ -1,0 +1,83 @@
+
+
+/* src/components/layout/Section.css */
+.section {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.section.no-padding {
+  padding: 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* .section-title::after {
+  content: none;
+} */
+.section-title::after {
+  content: none !important;
+  display: none !important;
+}
+
+.title-underline {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  transform: translateX(-100%);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: -1;
+}
+
+
+.animate-title .title-underline {
+  transform: translateX(0);
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 4rem 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+  }
+}

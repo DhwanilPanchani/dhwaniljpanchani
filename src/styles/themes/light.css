@@ -1,0 +1,41 @@
+/* src/styles/themes/light.css */
+[data-theme='light'] {
+    /* Base Colors */
+    --color-primary: #3b66d4;       /* Blue */
+    --color-primary-hover: #2a55c3; /* Darker Blue */
+    --color-primary-light: #7a9cf3; /* Lighter Blue */
+    
+    --color-secondary: #8b5cf6;     /* Purple */
+    --color-secondary-hover: #7c3aed;
+    --color-secondary-light: #c4b5fd;
+    
+    --color-accent: #0ea5e9;        /* Sky Blue */
+    --color-accent-hover: #0284c7;
+    --color-accent-light: #7dd3fc;
+    
+    /* Text Colors */
+    --color-text-primary: #1f2937;    /* Gray 800 */
+    --color-text-secondary: #4b5563;  /* Gray 600 */
+    --color-text-tertiary: #9ca3af;   /* Gray 400 */
+    --color-text-inverse: #f9fafb;    /* Gray 50 */
+    
+    /* Background Colors */
+    --color-bg-primary: #ffffff;      /* White */
+    --color-bg-secondary: #f9fafb;    /* Gray 50 */
+    --color-bg-tertiary: #f3f4f6;     /* Gray 100 */
+    --color-bg-accent: #eff6ff;       /* Blue 50 */
+    
+    /* Border Colors */
+    --color-border-light: #e5e7eb;    /* Gray 200 */
+    --color-border-medium: #d1d5db;   /* Gray 300 */
+    --color-border-dark: #9ca3af;     /* Gray 400 */
+    
+    /* Status Colors */
+    --color-success: #10b981;         /* Emerald 500 */
+    --color-warning: #f59e0b;         /* Amber 500 */
+    --color-error: #ef4444;           /* Red 500 */
+    --color-info: #3b82f6;            /* Blue 500 */
+    
+    /* Shadow Colors with light theme transparency */
+    --shadow-color: rgba(0, 0, 0, 0.1);
+  }

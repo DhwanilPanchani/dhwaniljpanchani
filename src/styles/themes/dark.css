@@ -1,0 +1,41 @@
+/* src/styles/themes/dark.css */
+[data-theme='dark'] {
+    /* Base Colors */
+    --color-primary: #5b86f6;         /* Blue 500 */
+    --color-primary-hover: #3b66d4;   /* Blue 600 */
+    --color-primary-light: #7a9cf3;   /* Blue 400 */
+    
+    --color-secondary: #a78bfa;       /* Violet 400 */
+    --color-secondary-hover: #8b5cf6; /* Violet 500 */
+    --color-secondary-light: #c4b5fd; /* Violet 300 */
+    
+    --color-accent: #38bdf8;          /* Sky 400 */
+    --color-accent-hover: #0ea5e9;    /* Sky 500 */
+    --color-accent-light: #7dd3fc;    /* Sky 300 */
+    
+    /* Text Colors */
+    --color-text-primary: #f9fafb;    /* Gray 50 */
+    --color-text-secondary: #e5e7eb;  /* Gray 200 */
+    --color-text-tertiary: #9ca3af;   /* Gray 400 */
+    --color-text-inverse: #1f2937;    /* Gray 800 */
+    
+    /* Background Colors */
+    --color-bg-primary: #111827;      /* Gray 900 */
+    --color-bg-secondary: #1f2937;    /* Gray 800 */
+    --color-bg-tertiary: #374151;     /* Gray 700 */
+    --color-bg-accent: #1e3a8a;       /* Blue 900 */
+    
+    /* Border Colors */
+    --color-border-light: #374151;    /* Gray 700 */
+    --color-border-medium: #4b5563;   /* Gray 600 */
+    --color-border-dark: #6b7280;     /* Gray 500 */
+    
+    /* Status Colors */
+    --color-success: #10b981;         /* Emerald 500 */
+    --color-warning: #f59e0b;         /* Amber 500 */
+    --color-error: #ef4444;           /* Red 500 */
+    --color-info: #3b82f6;            /* Blue 500 */
+    
+    /* Shadow Colors with dark theme transparency */
+    --shadow-color: rgba(0, 0, 0, 0.5);
+  }
