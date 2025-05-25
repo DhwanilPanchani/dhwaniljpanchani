@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dhwaniljpanchani/static/css/main.3ccd8dd3.css",
+    "main.js": "/dhwaniljpanchani/static/js/main.9b97bc70.js",
+    "index.html": "/dhwaniljpanchani/index.html",
+    "main.3ccd8dd3.css.map": "/dhwaniljpanchani/static/css/main.3ccd8dd3.css.map",
+    "main.9b97bc70.js.map": "/dhwaniljpanchani/static/js/main.9b97bc70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ccd8dd3.css",
+    "static/js/main.9b97bc70.js"
+  ]
+}
