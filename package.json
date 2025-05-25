@@ -1,7 +1,7 @@
 {
     "name": "dhwanil-portfolio",
     "version": "0.1.0",
-    "homepage": "https://DhwanilPanchani.github.io/Portfolio-Website1.1",
+    "homepage": "https://DhwanilPanchani.github.io/dhwaniljpanchani",
     "private": true,
     "dependencies": {
         "@emailjs/browser": "^4.4.1",
